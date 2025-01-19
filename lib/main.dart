@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:roll_dice_app/gradient_container.dart';
 
 void main() {
   runApp(const MaterialApp(
     home: Scaffold(
-      backgroundColor: Color.fromARGB(255, 63, 5, 120),
-      body: Center(
-        child: Text('Hello World!'),
-      ),
+      body: GradientContainer(),
     ),
   ));
 }
+
+
